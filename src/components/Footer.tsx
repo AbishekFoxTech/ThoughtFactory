@@ -4,21 +4,21 @@ import { Instagram, Twitter, Linkedin, Youtube, Mail, MapPin, Phone } from "luci
 const footerLinks = {
   Programs: [
     { label: "Events & Webinars", href: "/events" },
-    { label: "Internships", href: "/internships" },
-    { label: "Workshops", href: "/workshops" },
-    { label: "Mentorship", href: "/mentors" },
+    { label: "Internships",  disabled: true  },
+    { label: "Workshops", disabled: true  },
+    { label: "Mentorship",  disabled: true },
   ],
   Community: [
     { label: "About Us", href: "/about" },
     { label: "Blog", href: "/blog" },
-    { label: "Success Stories", href: "/stories" },
-    { label: "Join Us", href: "/join" },
+    { label: "Success Stories",  disabled: true  },
+    { label: "Join Us",  disabled: true  },
   ],
   Support: [
     { label: "Contact", href: "/contact" },
-    { label: "FAQ", href: "/faq" },
-    { label: "Privacy Policy", href: "/privacy" },
-    { label: "Terms of Service", href: "/terms" },
+    { label: "FAQ", disabled: true  },
+    { label: "Privacy Policy",  disabled: true  },
+    { label: "Terms of Service",  disabled: true  },
   ],
 };
 
